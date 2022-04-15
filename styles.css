@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    color:#666;
+    font-family: Roboto;
+}
+html,body{
+    margin:0;
+    padding:0;
+
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display:inline;
+    padding: 0 5%;
+}
+.nav a{
+    display:inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #fff;
+}
+
+.nav a:hover{
+    background-color:lightgreen;
+}
+.main-header{
+    background-image: url("images/schneider_green.png");
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    margin:0;
+    font-size: 3em;
+    font-weight: normal;
+    color:white;
+
+}
+
+.content{
+    margin:1em;
+}
+
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding:0 1.5em;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding:0.25em;
+    cursor:pointer;
+
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+/* .btn-header{
+    margin: .5em 50% 2em;
+} */
+
+.product-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.product-row:last-child{
+    border-bottom: none;
+}
+
+.item{
+    display: inline-block;
+    padding-right: .4em ;
+}
+
+.item-name{
+    color: #555;
+    font-weight:bold ;
+    width: 15%;
+}
+
+.model{
+    width:20%;
+}
+
+.info{
+    width:55%;
+}
+
+.buy-now{
+    max-width: 19%;
+    padding:.5em;
+    border-width: 0ch;
+}
+
+.buy-now:hover{
+    color:white;
+    background-color: lightgreen;
+    
+}
